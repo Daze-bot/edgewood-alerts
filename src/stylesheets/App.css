@@ -26,7 +26,7 @@ form input {
   text-align: center;
   margin-bottom: 60px;
   font-size: 1.5rem;
-  width: 500px;
+  width: min(500px, 80%);
 }
 
 .new-alert input {
