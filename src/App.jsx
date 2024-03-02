@@ -8,11 +8,11 @@ const App = () => {
 
   return (
     <div className='app'>
-      {isLoggedIn ?
-        <AddAlert /> :
-        <Login 
-          setIsLoggedIn={setIsLoggedIn}
-        />
+      {isLoggedIn
+        ? <AddAlert />
+        : <Login 
+            setIsLoggedIn={setIsLoggedIn}
+          />
       }
     </div>
   )

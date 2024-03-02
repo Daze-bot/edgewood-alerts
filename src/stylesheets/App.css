@@ -20,13 +20,18 @@ form input {
   border-radius: 8px;
   border: 1px solid black;
   margin-bottom: 20px;
-  width: 500px;
 }
 
 .login input {
   text-align: center;
   margin-bottom: 60px;
   font-size: 1.5rem;
+  width: 500px;
+}
+
+.new-alert input {
+  font-size: 1.2rem;
+  width: 80%;
 }
 
 form button {
@@ -47,4 +52,8 @@ form button:hover {
 
 form button:active {
   box-shadow: none;
+}
+
+.recent-alert {
+  margin-bottom: 80px;
 }

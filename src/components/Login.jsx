@@ -13,6 +13,9 @@ const Login = ({setIsLoggedIn}) => {
       setIsLoggedIn(true);
     } else {
       alert("Wrong password, try again");
+      setData({
+        password:""
+      });
     }
   }
 
